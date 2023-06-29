@@ -14,35 +14,41 @@ export class PizzasComponent implements OnInit{
       nome: 'Pizza de Frango com Catupiry',
       foto: 'img/assets/frango-catupiry.jpeg',
       telefone: '+55 11 2906-0591',
-      descricao: 'A pizza apresentada é considerada a melhor, por ser aquela que consegue combinar o delicioso sabor da carne com o queijo leve. Tornando assim uma iguaria equilibrada que enche bem.'
+      descricao: 'A pizza apresentada é considerada a melhor, por ser aquela que consegue combinar o delicioso sabor da carne com o queijo leve. Tornando assim uma iguaria equilibrada que enche bem.',
+      site: 'https://www.suapizzaria.com/sp/sao-paulo/vila-guilherme/o-frances-pizzaria'
     },
     {
       idTop: 2,
       nome: 'Pizza de Calamussa',
       foto: 'img/assets/calamussa.jpeg',
       telefone: '+55 11 2909-1503',
-      descricao: 'A pizza apresentada é uma coisa maravilhosa, pois combina o sabor mais vendido da calabresa com o queijo da mussarela.'
+      descricao: 'A pizza apresentada é uma coisa maravilhosa, pois combina o sabor mais vendido da calabresa com o queijo da mussarela.',
+      site: 'https://www.suapizzaria.com/sp/sao-paulo/vila-guilherme/pizzaria-vovo-nininha'
     },
     {
       idTop: 3,
       nome: 'Pizza de Calabresa',
       foto: 'img/assets/calabresa.jpeg',
       telefone: '+55 11 2901-3319',
-      descricao: 'Pizza tradicional e adorada por muitos brasileiros é essa maravilha mostrada!'
+      descricao: 'Pizza tradicional e adorada por muitos brasileiros é essa maravilha mostrada!',
+      site: 'https://www.suapizzaria.com/sp/sao-paulo/vila-guilherme/pizzaria-mama-cora'
     },
     {
       idTop: 4,
       nome: 'Pizza de Pepperoni',
       foto: 'img/assets/pepperoni.jpeg',
       telefone: '+55 11 2977-0200',
-      descricao: 'Uma versão extremamente parecida com a de calamussa, porém com um gosto mais forte na escolha de carne'
+      descricao: 'Uma versão extremamente parecida com a de calamussa, porém com um gosto mais forte na escolha de carne',
+      site: 'https://www.suapizzaria.com/sp/sao-paulo/vila-guilherme/pizzaria-valpolicella'
+
     },
     {
       idTop: 5,
       nome: 'Pizza de Mussarela',
       foto: 'img/assets/mussarela.jpeg',
       telefone: '+55 11 2099-3668',
-      descricao: 'Pizza mais tradicional e perfeita para todos os gostos, apenas tendo problema com os intolerante a lactose.'
+      descricao: 'Pizza mais tradicional e perfeita para todos os gostos, apenas tendo problema com os intolerante a lactose.',
+      site: 'https://www.suapizzaria.com/sp/sao-paulo/vila-guilherme/mr-texas-pizza-pan'
     }
   ]
 
