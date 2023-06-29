@@ -1,1 +1,13 @@
-<p>pizzas works!</p>
+<h1><b>As melhores 5 pizzas em forma de lista!</b></h1>
+<p>A lista a seguir irá conter o que é considerado pelos autores como a ordem das melhores pizzas existentes.</p>
+<br>
+
+<div class="card" style="width: 18rem;" *ngFor="let pizz of listaPizzas">
+  {{ pizz.foto }}
+  <div class="card-body">
+    {{ pizz.id }} {{ pizz.nome }}
+    {{ pizz.desc }}
+    {{ pizz.telefone }}
+    <a href="#" class="btn btn-primary">Peça Agora</a>
+  </div>
+</div>
